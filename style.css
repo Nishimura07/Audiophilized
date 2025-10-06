@@ -1,14 +1,14 @@
 @font-face {
-    font-family:OCR A;
+    font-family:Font1;
     src: url(Fonts/OCR\ A\ Regular.otf);
 }
 @font-face {
-    font-family:Century Gothic;
+    font-family:Font2;
     src: url(Fonts/centurygothic.ttf);
 }
 .main {
     font-size: 20px;
-    font-family: OCR A;
+    font-family: Font1;
     text-decoration: none;
     color: black;
 }
@@ -151,7 +151,7 @@ body, html { margin:0; padding:0; }
 }
 .prod_name {
     position:absolute;
-    font-family:Century Gothic;
+    font-family:Font2;
     font-size:40px;
     margin:0;
     padding:0;
