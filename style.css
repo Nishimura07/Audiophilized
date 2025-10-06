@@ -1,3 +1,7 @@
+@font-face {
+    font-family:OCR A;
+    src: url(Fonts/OCR\ A\ Regular.otf);
+}
 .main {
     font-size: 20px;
     font-family: OCR A;
