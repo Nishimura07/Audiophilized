@@ -1,0 +1,132 @@
+.html {
+    background-color: rgb(247, 244, 244);
+}
+.header {
+    position: fixed;
+    top: 0;
+    background-color:white;
+    z-index:10;
+}
+@font-face {
+    font-family:Font1;
+    src: url(../../../Fonts/OCR\ A\ Regular.otf);
+}
+@font-face {
+    font-family:Font2;
+    src: url(../../../Fonts/centurygothic.ttf);
+}
+.main {
+    font-size: 20px;
+    font-family: Font1;
+    text-decoration: none;
+    color: black;
+}
+.iems:hover {
+    animation-name:in;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+}
+.iems {
+    animation-name:out;
+    animation-duration:0.5s;
+    color:grey;
+    font-family:lucida sans unicode;
+    font-size: 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+@keyframes in {
+    0% {color:grey;}
+    100% {color:black;}
+}
+@keyframes out {
+    0% {color:black;}
+    100% {color:grey;}
+}
+.eqtool:hover {
+    animation-name:in;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+}
+.eqtool {
+    animation-name:out;
+    animation-duration:0.5s;
+    color:grey;
+    font-family:lucida sans unicode;
+    font-size: 15px;
+    text-decoration:none;
+}
+.support:hover {
+    animation-name:in;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+}
+.support {
+    animation-name:out;
+    animation-duration:0.5s;
+    color:grey;
+    font-family:lucida sans unicode;
+    font-size: 15px;
+}
+.download:hover {
+    animation-name:in;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+}
+.download {
+    animation-name:out;
+    animation-duration:0.5s;
+    color:grey;
+    font-family:lucida sans unicode;
+    font-size: 15px;
+}
+.product {
+    position:relative;
+    top:100px;
+}
+
+.line {
+    background-color: lightgray;
+}
+
+.dir {
+    font-family:Font2;
+    font-weight:bold;
+}
+.price {
+    font-size:45px;
+    font-family:Font2;
+    font-weight:bold;
+    margin:1;
+}
+.prod_name {
+    font-size:40px;
+    font-family:Font2;
+    font-weight:bold;
+    margin:0;
+}
+.pgraph {
+    font-family:Font2;
+    margin:0;
+    padding:0;
+    font-size:14px;
+    vertical-align:top;
+}
+.square {
+    width:700px;
+    height:60px;
+    background-color:black;
+    border-radius:50px;
+    margin-bottom:30px
+}
+.prod_form {
+    font-size:17px;
+    font-family:Font2;
+    font-weight:bold;
+}
+.prod_form2 {
+    font-size:17px;
+    font-family:Font2;
+    font-weight:bold;
+    vertical-align:top;
+}
