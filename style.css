@@ -2,6 +2,10 @@
     font-family:OCR A;
     src: url(Fonts/OCR\ A\ Regular.otf);
 }
+@font-face {
+    font-family:Century Gothic;
+    src: url(Fonts/centurygothic.ttf);
+}
 .main {
     font-size: 20px;
     font-family: OCR A;
