@@ -97,7 +97,7 @@
     font-size:45px;
     font-family:Font2;
     font-weight:bold;
-    margin:1;
+    margin:0;
 }
 .prod_name {
     font-size:40px;
@@ -123,10 +123,17 @@
     font-size:17px;
     font-family:Font2;
     font-weight:bold;
+    margin-top:0;
+    padding-top:0;
 }
 .prod_form2 {
     font-size:17px;
     font-family:Font2;
     font-weight:bold;
+    vertical-align:top;
+    margin-top:0;
+    padding-top:0;
+}
+.prod_det {
     vertical-align:top;
 }
